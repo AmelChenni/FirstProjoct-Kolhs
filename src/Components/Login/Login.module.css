@@ -1,0 +1,102 @@
+.form{
+    display: flex;
+    width: 65%;
+    position: relative;
+    top: 80px;
+}
+.box1{
+position: relative;
+}
+.box1::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    background-color: #eee;
+    top: 0;
+    right: 0;
+
+}
+.box1 h2,.box2 h2{
+    font-size: 20px;
+    font-weight: normal;
+    color: #000;
+    font-family: Gotham5r;
+    font-size: 20px;
+    line-height: 19.6px;
+
+
+}
+.box1 p,.box2 p{
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-family: Gotham3r;
+
+}
+.box1 label:first-child,.box2 span{
+    margin-bottom: 6px;
+    /* float: left !important; */
+    color:#000;
+    font-family: Gotham5r;
+
+}
+.box1 #exampleInputEmail1,#exampleInputPassword1 {
+    width: 275px;
+    height: 37px;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    border-radius: 0px;
+    font-size: 14px;
+ }
+ .formCheck{
+position: relative; 
+}
+.box1 input[type=checkbox]{
+    width: auto !important;
+    clear: none !important;
+    padding-left: 40px;
+    height: 30px !important;
+    cursor: pointer;
+    border-radius: 0%;
+    /* margin-left: 0 !important; */
+}
+.box1 label:nth-child(2){
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(70, 70, 70);
+   
+}
+.box1 a{
+    text-decoration: underline;
+    color: #000 !important;
+    font-size: 12px;
+    font-family: "Gotham 4r";
+    display: inline-block;
+    position: absolute;
+    margin-left: 10%;
+    line-height: 30px;
+}
+.box1 .formCheck p{
+    font-size: 11px;
+    color: #808080;
+}
+ .box1 button,.box2 .button{
+    cursor: pointer;
+    background-color: #95c96f;
+    color: #fff;
+    height: 46px !important;
+    font-size: 18px;
+    font-family: 'Gotham 5r';
+    width: 282px !important;
+    border: 0;
+    border-radius: 0px;
+ }
+ .box1 button:hover,.box2 button:hover{
+    background-color: #486434;
+ }
+.box2 img{
+    height: 30px;
+    width: 40px ;
+    margin-right: 10px;
+}

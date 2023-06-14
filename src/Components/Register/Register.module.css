@@ -1,0 +1,33 @@
+form h1{
+    font-size: 20px;
+    font-weight: normal;
+    color: #000;
+    font-family: Gotham5r;
+    font-size: 20px;
+    line-height: 19.6px;
+}
+form p{
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-family: Gotham3r;
+
+}
+.notFlex{
+    flex:0 0 51%;
+}
+form #creatAccBtn{
+    left: 50%;
+    position: absolute;
+    bottom: -14%;
+    background-color: #000000;
+    border-color: #000000;
+    color: #ffffff;
+    font-size: 0.875rem;
+    font-family: "Gotham 5r";
+    letter-spacing: 0.08rem;
+    text-align: center;
+    border: 0rem solid #000000;
+    width: 50%;
+    white-space: normal;
+    word-wrap: break-word;
+}

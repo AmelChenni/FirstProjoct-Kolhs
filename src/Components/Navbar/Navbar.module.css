@@ -1,0 +1,50 @@
+
+.logo{
+    width: 180px;
+}
+.search{
+    margin: 15px 20px;
+    min-width: 511px;
+    height: 44px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background: #fff;
+    float: none;
+    font-size: 12px;
+    font-family:'Gotham 4r';
+    padding: 5px 50px !important;
+   
+}
+.inputIcon  {
+    position: relative;
+}
+.inputIcon i {
+    position: absolute;
+    left: 4%;
+    top: 25%;
+    color: black;
+    padding: 4px;
+    font-size: 28px;
+}
+
+.icons{
+    font-size: 32px;
+    margin-top: 10px;
+    /* font-weight: normal; */
+}
+.links{
+    font-weight: bold;
+    color: black;
+
+}
+.div{
+    text-align: center;
+}
+.navitem {
+    text-align: center;
+}
+.navitem i {
+    color: black;
+}
